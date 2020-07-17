@@ -1,0 +1,340 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #E7E7E7;
+}
+
+.navbar {
+	width: 100%;
+	height: 60px;
+	background: #3a6eff;
+	border-bottom: 2px solid #585858;
+}
+
+.sidebar {
+	width: 70px;
+	height: 1120px;
+	background: #3a3a3a;
+	float: left;
+}
+
+/*.wrapper {
+	width: auto;
+	height: 500px;
+	background: #e7e7e7;
+	float: left;
+	margin: 5px;
+}
+
+*/
+.box1 {
+	width: 250px;
+	height: 150px;
+	background: #5aaa4c;
+	float: left;
+	box-shadow: 2px 4px 4px grey;
+	cursor: pointer;
+}
+
+.box2 {
+	width: 250px;
+	height: 150px;
+	background: blue;
+	float: left;
+	margin-left: 30px;
+	box-shadow: 2px 4px 4px grey;
+	cursor: pointer;
+}
+
+.box3 {
+	width: 250px;
+	height: 150px;
+	background: #dc7e3b;
+	float: left;
+	margin-left: 30px;
+	box-shadow: 2px 4px 4px grey;
+	cursor: pointer;
+}
+
+.box4 {
+	width: 250px;
+	height: 150px;
+	background: #f74c4f;
+	float: left;
+	margin-left: 30px;
+	box-shadow: 2px 4px 4px grey;
+	cursor: pointer;
+}
+
+.boxx {
+	width: auto;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 170px;
+	margin-bottom: 30px;
+}
+
+.admin {
+	color: white;
+	font-size: 35px;
+	line-height: 60px;
+	margin-left: 20px;
+}
+
+.btn {
+	width: 70px;
+	height: 40px;
+	background: #3a3a3a;
+	border: none;
+	border-bottom: 1px solid #666666;
+	color: white;
+	cursor: pointer;
+	outline-color: #3a3a3a;
+
+}
+
+.btnt {
+	width: 70px;
+	height: 40px;
+	background: #2d2d2d;
+	border: none;
+	border-bottom: 1px solid #666666;
+	color: white;
+	cursor: pointer;
+	outline-color: #2d2d2d;
+
+}
+
+.btnn {
+	width: 70px;
+	height: 40px;
+	background: #595959;
+	border: none;
+	border-bottom: 1px solid #666666;
+	color: white;
+	cursor: pointer;
+	outline-color: #595959;
+}
+
+.btn:hover {
+	background: #595959;
+}
+
+.title {
+	width: 120px;
+	height: 150px;
+	float: right;
+}
+
+.int {
+	color: white;
+	margin: 30px 30px;
+}
+
+.intt {
+	color: white;
+	margin: 30px 30px;
+}
+
+.inttt {
+	color: white;
+	margin: 30px 30px;
+}
+
+.intttt {
+	color: white;
+	margin: 30px 30px;
+}
+
+.box1:hover {
+	background: #529646;
+}
+
+.box2:hover {
+	background: #5160b4;
+}
+
+.box3:hover {
+	background: #f1873a;
+}
+
+.box4:hover {
+	background: #cf4330;
+}
+
+.insert {
+	margin-top: 40px;
+	margin-left: 20px;
+	width: 150px;
+	height: 30px;
+	background: #507ac7;
+	border: none;
+	color: white;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px grey;
+	cursor: pointer;
+}
+
+.insert:hover {
+	background: #335fff;
+}
+
+.hapus {
+	width: 20px;
+	height: 20px;
+	background: #ff1919;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.edit {
+	width: 20px;
+	height: 20px;
+	background: #0808bd;
+	border: none;
+	color: white;
+	margin-left: 5px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.dasare {
+	width: 500px;
+	height: 300px;
+	margin: 30px auto;
+	border-radius: 20px;
+	border: 1px solid #d9d9d9;
+}
+
+.in {
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+	height: 40px;
+	background: none;
+	border: 1px solid #55b6ff;
+	border-radius: 20px;
+	outline: none;
+	text-align: center;
+}
+
+.inn {
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 10px;
+	height: 40px;
+	background: none;
+	border: 1px solid #55b6ff;
+	border-radius: 20px;
+	outline: none;
+	text-align: center;
+}
+
+.innn {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.sbm {
+	width: 148px;
+	height: 30px;
+	background-color: #5180ee;
+	border: none;
+	color: white;
+	font-weight: bold;
+	box-shadow: 2px 2px 3px grey;
+}
+
+#customers {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 50px;
+
+
+}
+
+#customers td,
+#customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+	background-color: #ddd;
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+
+.table {
+	margin: 40px;
+
+}
+
+#myInput {
+
+	width: 100%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+	margin: 20px 10px;
+}
+
+#myTable {
+	border-collapse: collapse;
+	width: 95%;
+	border: 1px solid #ddd;
+	font-size: 18px;
+	margin: 20px 20px;
+
+}
+
+#myTable th,
+#myTable td {
+	text-align: left;
+	padding: 12px;
+}
+
+#myTable tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+	background-color: #f1f1f1;
+}
+
+.header th {
+	background: #0070D1;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin: 20px;
+}
